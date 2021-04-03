@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>707</width>
-    <height>458</height>
+    <width>793</width>
+    <height>494</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <rect>
      <x>20</x>
      <y>20</y>
-     <width>167</width>
+     <width>221</width>
      <height>301</height>
     </rect>
    </property>
@@ -64,17 +64,24 @@
       </property>
      </widget>
     </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="s1__lb_2">
+      <property name="text">
+       <string>COM：</string>
+      </property>
+     </widget>
+    </item>
     <item row="1" column="1">
      <widget class="QComboBox" name="s1__box_2"/>
     </item>
-    <item row="3" column="0">
+    <item row="2" column="0">
      <widget class="QLabel" name="s1__lb_3">
       <property name="text">
        <string>鮑  率：</string>
       </property>
      </widget>
     </item>
-    <item row="3" column="1">
+    <item row="2" column="1">
      <widget class="QComboBox" name="s1__box_3">
       <item>
        <property name="text">
@@ -138,14 +145,14 @@
       </item>
      </widget>
     </item>
-    <item row="4" column="0">
+    <item row="3" column="0">
      <widget class="QLabel" name="s1__lb_4">
       <property name="text">
        <string>數據位：</string>
       </property>
      </widget>
     </item>
-    <item row="4" column="1">
+    <item row="3" column="1">
      <widget class="QComboBox" name="s1__box_4">
       <item>
        <property name="text">
@@ -169,14 +176,14 @@
       </item>
      </widget>
     </item>
-    <item row="5" column="0">
+    <item row="4" column="0">
      <widget class="QLabel" name="s1__lb_5">
       <property name="text">
        <string>校驗位：</string>
       </property>
      </widget>
     </item>
-    <item row="5" column="1">
+    <item row="4" column="1">
      <widget class="QComboBox" name="s1__box_5">
       <item>
        <property name="text">
@@ -185,28 +192,14 @@
       </item>
      </widget>
     </item>
-    <item row="7" column="0" colspan="2">
-     <widget class="QPushButton" name="open_button">
-      <property name="text">
-       <string>打開串列埠</string>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="0" colspan="2">
-     <widget class="QPushButton" name="close_button">
-      <property name="text">
-       <string>關閉串列埠</string>
-      </property>
-     </widget>
-    </item>
-    <item row="6" column="0">
+    <item row="5" column="0">
      <widget class="QLabel" name="s1__lb_6">
       <property name="text">
        <string>停止位：</string>
       </property>
      </widget>
     </item>
-    <item row="6" column="1">
+    <item row="5" column="1">
      <widget class="QComboBox" name="s1__box_6">
       <item>
        <property name="text">
@@ -215,26 +208,17 @@
       </item>
      </widget>
     </item>
-    <item row="2" column="0" colspan="2">
-     <widget class="QLabel" name="state_label">
+    <item row="6" column="0" colspan="2">
+     <widget class="QPushButton" name="open_button">
       <property name="text">
-       <string/>
-      </property>
-      <property name="textFormat">
-       <enum>Qt::AutoText</enum>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       <string>打開串列埠</string>
       </property>
      </widget>
     </item>
-    <item row="1" column="0">
-     <widget class="QLabel" name="s1__lb_2">
+    <item row="7" column="0" colspan="2">
+     <widget class="QPushButton" name="close_button">
       <property name="text">
-       <string>COM：</string>
+       <string>關閉串列埠</string>
       </property>
      </widget>
     </item>
@@ -243,7 +227,7 @@
   <widget class="QGroupBox" name="verticalGroupBox">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>260</x>
      <y>20</y>
      <width>401</width>
      <height>241</height>
@@ -273,7 +257,7 @@
   <widget class="QGroupBox" name="verticalGroupBox_2">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>260</x>
      <y>280</y>
      <width>401</width>
      <height>101</height>
@@ -311,7 +295,7 @@ p, li { white-space: pre-wrap; }
   <widget class="QPushButton" name="s3__send_button">
    <property name="geometry">
     <rect>
-     <x>620</x>
+     <x>670</x>
      <y>310</y>
      <width>61</width>
      <height>31</height>
@@ -324,7 +308,7 @@ p, li { white-space: pre-wrap; }
   <widget class="QPushButton" name="s3__clear_button">
    <property name="geometry">
     <rect>
-     <x>620</x>
+     <x>670</x>
      <y>350</y>
      <width>61</width>
      <height>31</height>
@@ -339,7 +323,7 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>20</x>
      <y>340</y>
-     <width>171</width>
+     <width>221</width>
      <height>101</height>
     </rect>
    </property>
@@ -390,9 +374,9 @@ p, li { white-space: pre-wrap; }
   <widget class="QCheckBox" name="hex_send">
    <property name="geometry">
     <rect>
-     <x>620</x>
+     <x>670</x>
      <y>280</y>
-     <width>71</width>
+     <width>91</width>
      <height>16</height>
     </rect>
    </property>
@@ -403,9 +387,9 @@ p, li { white-space: pre-wrap; }
   <widget class="QCheckBox" name="hex_receive">
    <property name="geometry">
     <rect>
-     <x>620</x>
+     <x>670</x>
      <y>40</y>
-     <width>71</width>
+     <width>91</width>
      <height>16</height>
     </rect>
    </property>
@@ -416,7 +400,7 @@ p, li { white-space: pre-wrap; }
   <widget class="QPushButton" name="s2__clear_button">
    <property name="geometry">
     <rect>
-     <x>620</x>
+     <x>670</x>
      <y>80</y>
      <width>61</width>
      <height>31</height>
@@ -429,9 +413,9 @@ p, li { white-space: pre-wrap; }
   <widget class="QCheckBox" name="timer_send_cb">
    <property name="geometry">
     <rect>
-     <x>260</x>
+     <x>310</x>
      <y>390</y>
-     <width>71</width>
+     <width>91</width>
      <height>16</height>
     </rect>
    </property>
@@ -442,7 +426,7 @@ p, li { white-space: pre-wrap; }
   <widget class="QLineEdit" name="lineEdit_3">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>410</x>
      <y>390</y>
      <width>61</width>
      <height>20</height>
@@ -458,7 +442,7 @@ p, li { white-space: pre-wrap; }
   <widget class="QLabel" name="dw">
    <property name="geometry">
     <rect>
-     <x>420</x>
+     <x>490</x>
      <y>390</y>
      <width>54</width>
      <height>20</height>
@@ -466,6 +450,28 @@ p, li { white-space: pre-wrap; }
    </property>
    <property name="text">
     <string>ms / 次</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="state_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>450</y>
+     <width>671</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
    </property>
   </widget>
   <zorder>verticalGroupBox</zorder>
@@ -480,6 +486,7 @@ p, li { white-space: pre-wrap; }
   <zorder>timer_send_cb</zorder>
   <zorder>lineEdit_3</zorder>
   <zorder>dw</zorder>
+  <zorder>state_label</zorder>
  </widget>
  <resources/>
  <connections/>

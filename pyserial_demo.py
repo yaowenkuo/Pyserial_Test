@@ -3,7 +3,7 @@
 import sys
 import serial
 import serial.tools.list_ports
-from PyQt5 import QtWidgets
+from PyQt5 import QtWidgets,QtCore, QtGui
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtCore import QTimer
 
@@ -16,6 +16,7 @@ class Pyqt5_Serial(QtWidgets.QWidget, Ui_Form):
         self.setupUi(self)
         self.init()
         self.setWindowTitle("串列埠測試")
+        self.setWindowIcon(QtGui.QIcon('./Win/pic/tools.png'))
         self.ser = serial.Serial()
         self.port_check()
 
